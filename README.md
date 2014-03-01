@@ -1,4 +1,4 @@
-![ScreenShot](http://site.uppercase.io/UPPERSITE/logo.png)
+![ScreenShot](http://uppercase.io/UPPERCASE_IO/R/UPPERSITE/logo.png)
 =========
 UPPERSITE는 BTNcafe에서 개발한 웹 사이트를 개발하는데 필요한 전 범위를 아우르는 Full Stack 프레임워크입니다.
 
@@ -23,7 +23,7 @@ https://github.com/BTNcafe/UPPERSITE/blob/master/LICENSE.md
 
 Contact
 -------
-- Official Web Site: http://SITE.UPPERCASE.IO
+- Official Web Site: http://UPPERCASE.IO/#UPPERSITE
 - UPPERSITE: https://github.com/BTNcafe/UPPERSITE
 
 2014 ⓒ BTNcafe · http://www.btncafe.com · contact@btncafe.com
