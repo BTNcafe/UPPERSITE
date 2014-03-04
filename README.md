@@ -4,7 +4,7 @@ UPPERSITE는 BTNcafe에서 개발한 웹 사이트를 개발하는데 필요한 
 
 Version
 -------
-1.2.9
+1.2.10
 
 Based On
 --------
