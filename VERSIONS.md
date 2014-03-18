@@ -5,7 +5,7 @@ VERSIONS
 - createData와 createDataSafely가 createData로, updateData와 updateDataSafely가 updateData로, removeData와 removeDataSafely가 removeData로 통합
 
 1.2.12 (2014. 3. 14)
-- 1.2.11에서 업그레이드 시 반드시 MongoDB Shell에서 모든 컬렉션에 대해 다음 명령을 실행해 주시기 바랍니다. 컬렉션.update({_isEnable : true}, { $set : {__IS_ENABLED : true} }, false, true)
+- 1.2.11에서 업그레이드 시 반드시 MongoDB Shell에서 모든 컬렉션에 대해 다음 명령을 실행해 주시기 바랍니다. 컬렉션.update({\_isEnable : true}, { $set : {\__IS_ENABLED : true} }, false, true)
 - IE5.5 iepngfix_tilebg 버그 제거
 - createValid, updateValid 없을 경우 발생하는 MODEL에서의 오류 해결
 
