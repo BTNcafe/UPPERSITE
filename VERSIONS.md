@@ -1,5 +1,11 @@
 VERSIONS
 ========
+1.2.13.2 (2014. 3. 20)
+- SERVER_CONFIG.isDBLogMode가 true일 때 DB Log 출력하도록 변경
+
+1.2.13.1 (2014. 3. 18)
+- 부팅 오류 버그 해결
+
 1.2.13 (2014. 3. 17)
 - isDevMode가 true일 때 DB 로그 출력
 - createData와 createDataSafely가 createData로, updateData와 updateDataSafely가 updateData로, removeData와 removeDataSafely가 removeData로 통합
