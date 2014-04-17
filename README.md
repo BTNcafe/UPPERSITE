@@ -12,9 +12,10 @@ Based On
 - CommonJS Modules/1.0
 
 Server-side:
-- Node.js 0.10
-- MongoDB 2.0.6
-- ImageMagick 6.8.6-3
+- Node.js
+- MongoDB
+- ImageMagick
+- Redis
  
 License
 -------
