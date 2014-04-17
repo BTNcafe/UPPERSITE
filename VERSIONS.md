@@ -1,5 +1,20 @@
 VERSIONS
 ========
+1.3 (2014. 4. 17)
+- LOOP를 다시 COMMON으로 회귀, 성능 개선
+- COMMON/INTEGER, COMMON/REAL 추가
+- REQUEST의 callback에 넘어가는 파라미터가 method, params, paramStr, headers, response로, REQUEST_JSON의 callback에 넘어가는 파라미터가 method, params, data, headers, response로 변경
+- PUT, PUT_JSON, DELETE, DELETE_JSON이 추가
+- UPPERSITE 부팅 후 명령어를 입력받을 수 있게 REPL(Read-Eval-Print-Loop)기능 추가(SERVER_CONFIG.isNotUsingREPL을 true로 두어 끌 수 있음)
+- BOX 이름에 점(.)이 들어가도 인식되도록 개선
+- REFRESH 기능 추가
+- 실시간 처리 Redis 연동
+- 멀티코어 CPU 지원으로 인한 성능 개선
+- iOS/Mac Safari에서 캐시되지 않는 버그 해결
+- 기본 BOX 폴더 내에 ERROR.html 파일을 만들면 서버에서 오류가 발생하거나 없는 리소스일 경우 해당 페이지가 출력되는 기능 추가
+- Flash Policy File을 제공하는 Server의 포트를 지정하는 CONFIG.flashPolicyServerPort 설정 추가
+- isNotUsingREPL -> isUsingREPL로 변경
+
 1.2.13.2 (2014. 3. 20)
 - SERVER_CONFIG.isDBLogMode가 true일 때 DB Log 출력하도록 변경
 
