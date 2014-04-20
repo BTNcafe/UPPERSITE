@@ -1,5 +1,11 @@
 VERSIONS
 ========
+1.3.1 (2014. 4. 20)
+- 안드로이드 4.4 미만 버젼의 기본 웹 브라우저에서 통신 연결 오류 해결
+- 멀티코어 지원 일시적으로 중단
+- CONFIG.flashPolicyServerPort 기본 값 CONFIG.port + 1955로 설정
+- INFO.getBrowserInfo, bowser( https://github.com/ded/bowser )에 의존하도록 변경
+
 1.3 (2014. 4. 17)
 - LOOP를 다시 COMMON으로 회귀, 성능 개선
 - COMMON/INTEGER, COMMON/REAL 추가
