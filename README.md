@@ -4,7 +4,7 @@ UPPERSITE는 BTNcafe에서 개발한 웹 사이트를 개발하는데 필요한 
 
 Version
 -------
-1.3
+1.3.1
 
 Based On
 --------
@@ -12,10 +12,10 @@ Based On
 - CommonJS Modules/1.0
 
 Server-side:
-- Node.js
-- MongoDB
-- ImageMagick
-- Redis
+- Node.js (http://nodejs.org)
+- MongoDB (http://www.mongodb.org)
+- Redis (http://redis.io)
+- ImageMagick (http://www.imagemagick.org)
  
 License
 -------
