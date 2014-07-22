@@ -1,0 +1,1 @@
+RUN(function(){"use strict";LOAD("/UPPERSITE/UPPERCASE.JS-BROWSER-FIX/FIX.js"),INIT_OBJECTS(),TIME_SYNC()});

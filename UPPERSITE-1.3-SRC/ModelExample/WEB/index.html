@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>예제 문서</title>
+	</head>
+	<body>
+		<h1>UPPERSITE CRUD Example</h1>
+		<form>
+			<h3>Article Form</h3>
+			<p>
+				<input name="title" placeholder="Article Title.">
+			</p>
+			<p>
+				<textarea name="content" placeholder="Article Content."></textarea>
+			</p>
+			<p>
+				<input type="submit">
+			</p>
+		</form>
+		<script src="/__SCRIPT"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script>
+			var
+			// article model
+			articleModel = ModelExample.ArticleModel();
+
+			articleModel.getWatching({}, function(result, updateHandler) {
+
+				if (result.savedData !== undefined) {
+
+					updateHandler(function(result) {
+						console.log(result);
+					});
+
+					result.savedData.title = 'TTT';
+
+					DELAY(1, function() {
+						articleModel.update(result.savedData);
+					});
+				}
+			});
+
+			$('form').submit(function() {
+
+				var
+				// data
+				data = {};
+
+				$.each($(this).serializeArray(), function(i, o) {
+					data[o.name] = o.value;
+				});
+
+				articleModel.create(data, function(result) {
+					console.log(result);
+				});
+
+				return false;
+			});
+		</script>
+	</body>
+</html>
