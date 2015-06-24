@@ -1,4 +1,4 @@
-이 저장소는 UPPERSITE 1.3의 소스코드를 저장하기 위한 곳입니다. UPPERSITE는 UPPERCASE.IO 1.4와 통합되었습니다. UPPERCASE.IO 1.4의 저장소인 https://github.com/UPPERCASEIO/UPPERCASE.IO 를 참고하시기 바랍니다.
+이 저장소는 UPPERSITE 1.3의 소스코드를 저장하기 위한 곳입니다. UPPERSITE는 UPPERCASE.IO 1.4와 통합되었습니다. UPPERCASE.IO 1.4의 저장소인 https://github.com/Hanul/UPPERCASE.IO 를 참고하시기 바랍니다.
 
 ![ScreenShot](http://1.3.uppercase.io/UPPERCASE.IO.OfficialSite/R/UPPERSITE/logo.png)
 =========
